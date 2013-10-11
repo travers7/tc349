@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Times New Roman" sans-serif;
+	background: #C0C0C0;
+}
+
+h1, h2, h3, h4 {
+	margin: 0 auto;
+}
+
+h1 {
+	color: #C0C0C0;
+	background: #500000;
+	padding: 22px 12px;
+	font-size: 20pt;
+	text-align: center;
+}
+
+img {
+	border: 1px solid #C0C0C0;
+	border-radius: 10px;
+	margin-bottom: 35px;
+	color: #C0C0C0;
+	text-align: center;
+}
+
+#center_img {
+	text-align: center;
+}
+
+.content {
+	margin: 50px;
+	background: #500000;
+}
