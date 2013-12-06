@@ -1,18 +1,16 @@
-// JavaScript Document
-function sBrowser() {
-sUsrAg = navigator.userAgent;
-
-if(sUsrAg.indexOf("Chrome") > -1) {
-	sBrowser = "Google Chrome";
-} else if (sUsrAg.indexOf("Safari") > -1) {
-	sBrowser = "Apple Safari";
-} else if (sUsrAg.indexOf("Opera") > -1) {
-	sBrowser = "Opera";
-} else if (sUsrAg.indexOf("Firefox") > -1) {
-	sBrowser = "Mozilla Firefox";
-} else if (sUsrAg.indexOf("MSIE") > -1) {
-	sBrowser = "Microsoft Internet Explorer";
-}
-
-alert("You are using: " + sBrowser);
+function browserInfo() {
+	navigatorObject = window.navigator;
+	var thisBrowser, browserCheck = navigator.userAgent
+	if(browserCheck.indexOf("Chrome") > -1) {
+		thisBrowser = "Google Chrome";
+	} else if (browserCheck.indexOf("Safari") > -1) {
+		thisBrowser = "Apple Safari";
+	} else if (browserCheck.indexOf("Opera") > -1) {
+		thisBrowser = "Opera";
+	} else if (browserCheck.indexOf("Firefox") > -1) {
+		thisBrowser = "Mozilla Firefox";
+	} else if (browserCheck.indexOf("MSIE") > -1) {
+		thisBrowser = "Microsoft Internet Explorer";
+	}
+	alert("You are using: " + thisBrowser);
 }
