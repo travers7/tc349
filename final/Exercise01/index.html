@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Website Idea</title>
+</head>
+<link href="css/exercise01.css" rel="stylesheet" type="text/css">
+<body>
+	<div class="content">
+		<h1>Website Idea</h1>
+		<ul id="nav">
+			<li id="firstnav"><a href="../index.html">Home</a></li>
+			<li id="firstnav"><a href="../Exercise01/index.html">Website Idea</a></li>	
+			<li id="firstnav"><a href="../Exercise02/index.html">Card Sorting</a></li>
+			<li id="firstnav"><a href="../Exercise03/index.html">Wireframe</a></li>	
+			<li id="firstnav"><a href="../Exercise04/index.html">Website Design</a></li>	
+		</ul>
+		<h2 style="text-decoration: underline;">www.CountryAllDay.com</h2>
+		<hr>
+		<h2 style="text-align: left; text-decoration: underline;">My Background</h2>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am an extremely big country music fan and it is by far my favorite genre of music. &nbsp;Some of my favorite country artists &nbsp;&nbsp;include: George Strait, Zac Brown Band, Jake Owen, Brad Paisley, Dierks Bentley, Billy Currington, and many more. &nbsp;I <br>&nbsp;&nbsp;have been a fan of country music for as long as I can remember and I doubt I'll ever stop listening to this genre. &nbsp;I find that <br>&nbsp;&nbsp;I can relate to the lyrics in country music more than any other genre of music, i.e. Rap, because of the type of town <br>&nbsp;&nbsp;Carson City, MI is. &nbsp;My passion for country music is the reason that I am creating this website. &nbsp;There are countless other &nbsp;&nbsp;genres of music that have websites which allow its users access to a constantly updated list of Top 100 songs, New &nbsp;&nbsp;Songs, Music Videos, etc. &nbsp;I would like to create a flawless website that does all of those things for country music.</p>
+		<h2 style="text-align: left; text-decoration: underline;">My Website</h2>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I would like to create a website called www.CountryAllDay.com which will feature all of those catagories that I mentioned &nbsp;&nbsp;above. &nbsp;My website will allow it's users to browse the current Top 100 country songs/albums, the most &nbsp;&nbsp;popular/latest/upcoming New Songs the day they are released to the public and the most popular and latest Music Videos. &nbsp;&nbsp;When users create an account, they will have the option to pay a contract-free monthly fee to have unlimited music and &nbsp;&nbsp;video download access to all of the website's content; however, users can share music content on the website to others <br>&nbsp;&nbsp;at no charge. &nbsp;Users will also have the option to create a list of their favorite country artists so as soon as a user's favorite &nbsp;&nbsp;artists on the list releases a new song, album or music video, they will receieve a notification next time they sign into their &nbsp;&nbsp;account. &nbsp;There will also be an free option for the user to receieve an e-mail or text message updating them that they can &nbsp;&nbsp;instantly access the new music released.</p>
+		<hr>
+		<h2 style="text-align: left; text-decoration: underline;">List of Favorite Country Artists</h2>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter your favorite country artist's first name, last name and their gender to create a list of artist's you would like to &nbsp;&nbsp;receive notifications and/or email/text message updates for:</p>
+		<h4 style="color: #000066;">&nbsp;&nbsp;Artist's First Name: &nbsp;<input type="text" id="name_first" placeholder="Artist's First Name" style="width:165px;" value="" onchange="check_input('name_first')"></h4>
+		<h4 style="color: #000066;">&nbsp;&nbsp;Artist's Last Name: &nbsp;<input type="text" id="name_last" placeholder="Artist's Last Name" style="width:165px;" value="" onchange="check_input('name_last')"></h4>
+		<h4 style="color: #000066; float:left;">&nbsp;&nbsp;Artist's Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+		<form>
+			<select id="position">
+				<option value="0">Select One</option>
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+			</select>
+		</form>
+		<div id="submit_button">
+			<input type="button" id="submit" onclick="add_list()" value="Add Artist To Favorites">
+		</div>
+	</div>
+	<br>
+	<div id="roster_list">
+		<h4 style="color: #000066; text-decoration: underline;">My Favorite Country Artists:</h4>
+		<div id="list"></div>
+	</div>
+	<br>
+	<br>
+	<hr>
+	<br>
+	<p style="color: #000066; text-align: center;">Copyright © 2013 Bryce M. Traverse<br/>
+		Designed for Michigan State University's TC 349 Course</p>
+	</div>
+	<script src="js/exercise01.js"></script>
+</body>
+</html>
